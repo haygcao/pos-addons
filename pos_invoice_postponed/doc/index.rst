@@ -1,12 +1,14 @@
-=======================================
- Creation of Postponed invoices in POS
-=======================================
+===========================
+ Postponed Invoices in POS
+===========================
 
 
 Configuration
 =============
 
-* Open ``[[Point of Sale]] >> Payment Methods`` menu
+* `Activate developer mode <https://odoo-development.readthedocs.io/en/latest/odoo/usage/debug-mode.html>`__
+* Close the POS session for which you are setting up the Postponed Invoices, if it's active now.
+* Open ``[[Point of Sale]] >> Configuration >> Payment Methods`` menu
 * Choose a journal or create one, make sure the journal is active in POS
 * Activate **Create Postponed Invoice** field
 

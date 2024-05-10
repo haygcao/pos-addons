@@ -1,36 +1,25 @@
 # Copyright 2016 Stanislav Krotov <https://it-projects.info/team/ufaks>
 # Copyright 2017 Ivan Yelizariev <https://it-projects.info/team/yelizariev>
-# Copyright 2018 Kolushov Alexandr <https://it-projects.info/team/KolushovAlexandr>
-# License LGPL-3.0 or later (https://www.gnu.org/licenses/lgpl.html).
+# Copyright 2018-2019 Kolushov Alexandr <https://it-projects.info/team/KolushovAlexandr>
+# License MIT (https://opensource.org/licenses/MIT).
 {
-    "name": """Restrict out-of-stock POS Orders""",
-    "summary": """Restrict payments for out-of-stock products in POS""",
+    "name": "POS: Out-of-stock orders",
+    "summary": "Only supervisor can approve POS Order with out-of-stock product",
     "category": "Point Of Sale",
-    # "live_test_url": "http://apps.it-projects.info/shop/product/DEMO-URL?version={ODOO_BRANCH}",
+    # "live_test_url": "http://apps.it-projects.info/shop/product/DEMO-URL?version=11.0",
     "images": [],
-    "version": "12.0.1.0.1",
+    "version": "12.0.1.1.1",
     "application": False,
-
     "author": "IT-Projects LLC, Ivan Yelizariev",
-    "support": "pos@it-projects.info",
+    "support": "apps@itpp.dev",
     "website": "https://apps.odoo.com/apps/modules/12.0/pos_product_available_negative/",
-    "license": "LGPL-3",
+    "license": "Other OSI approved licence",  # MIT
     "price": 50.00,
     "currency": "EUR",
-
-    "depends": [
-        "pos_pin",
-        "pos_product_available",
-    ],
+    "depends": ["pos_pin", "pos_product_available"],
     "external_dependencies": {"python": [], "bin": []},
-    "data": [
-        'data.xml',
-        'views.xml',
-    ],
-    "demo": [
-    ],
-    "qweb": [
-    ],
-
-    'installable': True,
+    "data": ["data.xml", "views.xml"],
+    "demo": [],
+    "qweb": [],
+    "installable": True,
 }

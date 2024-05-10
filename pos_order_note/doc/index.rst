@@ -22,8 +22,8 @@ Auto-applied Notes
 ------------------
 
 * Open any Product
-* Go to the ``Notes`` tab
-* Set the Note, which will be auto-applied, once you add this product to the order in POS.
+* Go to the ``Sales`` tab
+* Set the `Notes for POS`, which will be auto-applied, once you add this product to the order in POS.
 * Click on ``[Save]``
 
 Usage
@@ -35,4 +35,3 @@ Usage
 * Click on ``Product Note`` or ``Order Note`` to apply notes for separate product or entire order respectively
 * Select predefined note and/or set a new one
 * Click on ``Ok``
-

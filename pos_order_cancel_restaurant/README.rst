@@ -1,35 +1,29 @@
-====================================
- Analyzing of refunds in Restaurant
-====================================
+.. image:: https://itpp.dev/images/infinity-readme.png
+   :alt: Tested and maintained by IT Projects Labs
+   :target: https://itpp.dev
+
+=======================
+ POS: Refunds analysis
+=======================
 
 The module extends ``pos_order_cancel`` for restaurant environment:
 
 * the reason will be added to cancellation kitchen receipt.
 
-Credits
-=======
+Questions?
+==========
+
+To get an assistance on this module contact us by email :arrow_right: help@itpp.dev
 
 Contributors
-------------
+============
 * Dinar Gabbasov <gabbasov@it-projects.info>
 
-Sponsors
---------
-* `Sinomate <http://sinomate.net/>`__
-
-Maintainers
------------
-* `IT-Projects LLC <https://it-projects.info>`__
 
 Further information
 ===================
 
-Demo: http://runbot.it-projects.info/demo/pos-addons/10.0
+Odoo Apps Store: https://apps.odoo.com/apps/modules/12.0/pos_order_cancel_restaurant/
 
-HTML Description: https://apps.odoo.com/apps/modules/10.0/pos_order_cancel_restaurant/
 
-Usage instructions: `<doc/index.rst>`_
-
-Changelog: `<doc/changelog.rst>`_
-
-Tested on Odoo 10.0 dad095de301580cdde70eba747792e835cbbc0fd
+Tested on `Odoo 12.0 <https://github.com/odoo/odoo/commit/597940de19e6adbdb3df738258b11d957c34e00e>`_

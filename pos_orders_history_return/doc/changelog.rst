@@ -1,7 +1,12 @@
-.. _changelog:
+`1.1.0`
+-------
 
-Updates
-=======
+**Improvement:** Reduced quantity of requests to the server
+
+`1.0.6`
+-------
+
+**Fix:** Unavailability to return fractional product amount
 
 `1.0.5`
 -------
